@@ -1,0 +1,29 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", "Helvetica";
+    background-image: url('city.jpg');
+}
+
+
+/* Banner */
+
+header {
+    display: flex;
+    align-items:center;
+    min-width: auto;
+    background-image: url('network.jpg');
+}
+
+h1 {
+    font-size: calc(2em + 2vw);
+}
+
+
+
