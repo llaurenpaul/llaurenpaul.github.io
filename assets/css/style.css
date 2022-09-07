@@ -1,10 +1,7 @@
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 :root {
     box-sizing: border-box;
@@ -17,11 +14,12 @@ body {
 
 html {
     background-image: url('/assets/images/city.jpg');
+    /* background-color: black; */
 
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 
@@ -34,12 +32,12 @@ header {
     min-width: auto;
     min-height: 100vh;
     color: white;
-    background-image: url('/assets/images/network.jpg');
-
+    background-image: url(/assets/images/network.jpg);
+/* 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 h1 {
@@ -49,6 +47,7 @@ h1 {
 ul {
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -69,7 +68,8 @@ main {
 }
 
 section {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    color: white;
 }
 
 
