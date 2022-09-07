@@ -1,6 +1,7 @@
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
 :root {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -8,7 +9,15 @@
 
 body {
     font-family: "Montserrat", "Helvetica";
-    background-image: url('//assets/images/city.jpg');
+}
+
+html {
+    background-image: url('/assets/images/city.jpg');
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -20,7 +29,13 @@ header {
     align-items:center;
     min-width: auto;
     min-height: 100vh;
+    color: white;
     background-image: url('/assets/images/network.jpg');
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
