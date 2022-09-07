@@ -1,6 +1,10 @@
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     box-sizing: border-box;
@@ -13,7 +17,7 @@ body {
 
 html {
     background-image: url('/assets/images/city.jpg');
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,12 +46,30 @@ h1 {
     font-size: calc(2em + 2vw);
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.introduction {
+    width: 80%;
+    text-align: center;
+}
+
 /* Main */
 
 main {
     display: flex;
     flex-direction: column;
     align-items:center;
+}
+
+section {
+    background-color: aliceblue;
 }
 
 
