@@ -10,16 +10,17 @@
 
 body {
     font-family: "Montserrat", "Helvetica";
+    margin: 0;
 }
 
 html {
     background-image: url('/assets/images/city.jpg');
     /* background-color: black; */
 
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
 }
 
 
@@ -32,12 +33,12 @@ header {
     min-width: auto;
     min-height: 100vh;
     color: white;
-    background-image: url(/assets/images/network.jpg);
-/* 
+    background-image: url("/assets/images/network.jpg");
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
 }
 
 h1 {
